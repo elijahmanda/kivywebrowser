@@ -24,11 +24,11 @@ class Wv(Widget):
         webview.setWebViewClient(wvc);                                                          
         activity.setContentView(webview)                                                        
         webview.loadUrl('http://www.google.com')
-                                                                                                
+# Hey bro, be cool!                                                                                                
 class ServiceApp(App):                                                                          
     def build(self):                                                                            
-        return Wv()                                                                             
-                                                                                                
+        return Wv()    
+                                                                                 
 if __name__ == '__main__':                                                                      
     ServiceApp().run()
 
